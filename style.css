@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Merriweather:ital@1&family=Roboto&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+    font-family:"Roboto" , sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.weather{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.weather>div{
+    margin: .65rem;
+}
+.weather1{
+    font-size: 4rem;
+}
+.weather p{
+font-size: 2rem;
+}
+.weather span{
+    font-size: 0.75rem;
+}
+.weather3 span{
+margin: 0.3rem;
+}
+.weather3 img{
+width: 2rem;
+}
+nav{
+    height: 100px;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(180, 177, 177, 0.075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav form {
+    width: 70%;
+    grid-template-columns: 5fr 1fr;
+    display: grid;
+  }
+  .search{
+    font-size: 1.2rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 97%;
+  }
+  nav form button {
+    background-color: rgb(165, 164, 163);
+    border-radius: 0 25px 25px 0;
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: black;
+  }
+  /* form.addEventListener("submit",);*/
